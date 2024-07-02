@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section1 {
+  background-image: url('https://via.placeholder.com/1200x800');
+}
+
+#section2 {
+  background-image: url('https://via.placeholder.com/1200x800');
+}
+
+.content {
+  text-align: center;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.content-section h2, .content-section p {
+  margin: 0 0 20px;
+}
+
